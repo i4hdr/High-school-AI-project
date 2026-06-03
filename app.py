@@ -4,13 +4,13 @@ import os
 
 # 1. Configuration & Personality Settings
 BOT_NAME = "FalconGPT"
-BOT_AVATAR = "🤖"
+BOT_AVATAR = "𓅃"
 SYSTEM_INSTRUCTION = f"You are {BOT_NAME}, a informative, yet fun to speak to and understanding AI companion. Keep answers engaging, yet concise."
 
 # Set up the Streamlit page layout
 st.set_page_config(page_title=f"{BOT_NAME} Chatbot", page_icon=BOT_AVATAR, layout="centered")
 st.title(f"{BOT_NAME} AI Assistant")
-st.caption(f"A sleek chat interface powered by the goat")
+st.caption(f"A sleek chat interface powered by innovative minds")
 
 # 2. Initialize the Gemini Client
 # It will securely look for the $env:GEMINI_API_KEY you set in your terminal
