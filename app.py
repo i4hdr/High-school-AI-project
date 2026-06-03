@@ -4,7 +4,7 @@ import os
 
 # 1. Configuration & Personality Settings
 BOT_NAME = "FalconGPT"
-BOT_AVATAR = "𓅃"
+BOT_AVATAR = "🦅"
 SYSTEM_INSTRUCTION = f"You are {BOT_NAME}, a informative, yet fun to speak to and understanding AI companion. Keep answers engaging, yet concise."
 
 # Set up the Streamlit page layout
